@@ -22,13 +22,14 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
+    "bit-bin": "^14.8.8",
+    "chromatic": "^5.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-watch": "^1.0.0",
     "less": "^2.7.1",
     "react-is": "^16.13.1",
-    "react-test-renderer": "^16.13.1",
-    "chromatic": "^5.1.0"
+    "react-test-renderer": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,7 +39,8 @@
     "build-css": "lessc src/style/index.less src/index.css",
     "watch-css": "npm run build-css && grunt",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "bit-build": "bit build"
   },
   "eslintConfig": {
     "extends": "react-app"
