@@ -39,10 +39,10 @@ export const reducer = (state, action) => {
 // The initial state of our store when the app loads.
 // Usually you would fetch this from a server
 const defaultTasks = [
-  { id: '1', title: 'Something', state: 'TASK_INBOX' },
-  { id: '2', title: 'Something more', state: 'TASK_INBOX' },
-  { id: '3', title: 'Something else', state: 'TASK_INBOX' },
-  { id: '4', title: 'Something again', state: 'TASK_INBOX' },
+  { id: '1', title: 'To sacrifice my own life for Pakistan', state: 'TASK_INBOX' },
+  { id: '2', title: 'Be a good human', state: 'TASK_INBOX' },
+  { id: '3', title: 'Be a good programmer', state: 'TASK_INBOX' },
+  { id: '4', title: 'Chant "Pakistan Zinabad"', state: 'TASK_INBOX' },
 ];
 
 // We export the constructed redux store
